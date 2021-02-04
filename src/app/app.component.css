@@ -1,0 +1,22 @@
+
+.main-container {
+  background-image: url(../assets/bg.jpg);
+  background-size: cover;
+  min-height: 100%;
+  padding-top: 20px;
+}
+
+.header {
+  background-color: #b3b3b3;
+  padding: 1%;
+  text-align: center;
+}
+
+.logo img{
+    width: 5%;
+}
+
+.title {
+  color: #fff;
+  font-size: 1.6em;
+}

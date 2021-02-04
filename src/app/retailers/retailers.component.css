@@ -1,0 +1,57 @@
+
+.table-content {
+  height: 100%;
+  width: 70%;
+  background-color: #1c69d4;
+  margin: 0px auto;
+}
+
+.table {
+  width: 100%;
+}
+
+th {
+  color: #fff;
+  font-size: 1.5em;
+  background-color: #1c69d4;
+  border-bottom: 3px solid #fff;
+}
+
+
+input.mat-input-element {
+  font-size: 24px;
+}
+
+.material-icons.search-icon {
+  color: #fff;
+  float: right;
+  font-size: 50px;
+  margin-top: -25px;
+}
+
+.mat-sort-header-button {
+  font-size: 1.6em;
+}
+
+.search {
+  width: 70%;
+  margin: 0px auto;
+  display: block;
+  border: 1px solid #ddd;
+}
+.mat-sort-header-arrow {
+  color: #dedede !important;
+}
+
+::ng-deep .mat-sort-header-arrow {
+  color: red;
+}
+
+
+@media screen and (max-width: 450px) {
+
+  input.mat-input-element{
+    font-size: 1em;
+  }
+
+}
